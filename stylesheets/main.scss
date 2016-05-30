@@ -1,0 +1,91 @@
+@import 'partials/nav';
+
+
+
+body{
+
+  font-family: 'Special Elite', cursive;
+}
+
+
+
+
+
+//homepage section
+#home{
+//  background-color: black;
+//width:100%;
+height:100vh;
+display: table;
+
+}
+//responsive homepage banner
+
+.resImage {
+  max-width:100%;
+
+
+}
+
+//wrapper for hoodedbanner border ish on home-page
+
+.centerView{
+//  background-color: black;
+//width: 100%;
+border-top: 10px solid black;
+border-left: 100px solid black;
+border-right: 100px solid black;
+border-bottom: 10px solid black;
+margin-top: 160px;
+
+padding-left: 10%;
+padding-right: 10%;
+
+
+}
+
+//end homepage section
+
+
+//video section
+//(responsive because of the jquery check main.js)
+iframe {
+  max-width: 100%;
+
+}
+.youtube{
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+//end video section
+
+
+//music section(responsive because of jquery check main.js)
+#music{
+  margin-top: 250px;
+  width:100%;
+  height:100vh;
+}
+//tour and footer
+#tour{
+  width:100%;
+  height:100vh;
+}
+.albumart{
+  padding-left: 30%;
+  padding-right: 10%;
+}
+.contact{
+  //background-color: black!important;
+  width:100%;
+  height:100vh;
+  color:white;
+}
+footer{
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  //background-color: black!important;
+}

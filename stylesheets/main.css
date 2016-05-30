@@ -1,0 +1,111 @@
+@media all and (max-width: 960px) {
+  .navdesktop-wrapper ul {
+    display: none !important; }
+
+  .navmobile-wrapper {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    top: 0; }
+
+  .navmobile-wrapper li {
+    display: block;
+    color: grey;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border: 1px solid black; }
+    .navmobile-wrapper li a {
+      display: block; }
+
+  li a:hover {
+    background-color: #2E0854;
+    color: grey; } }
+/*desktop*/
+@media all and (min-width: 960px) {
+  .foo-hamburger {
+    display: none !important; }
+
+  .navdesktop-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+
+  .navdesktop-wrapper ul {
+    background-color: black;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0; }
+
+  .navdesktop-wrapper li {
+    float: left;
+    margin-left: 40px;
+    margin-top: 8px; }
+    .navdesktop-wrapper li a {
+      text-align: center;
+      padding: 14px 16px;
+      font-weight: bold;
+      display: block;
+      text-decoration: none;
+      color: grey; }
+    .navdesktop-wrapper li a:hover {
+      background-color: #2E0854; } }
+body {
+  font-family: 'Special Elite', cursive; }
+
+#home {
+  height: 100vh;
+  display: table; }
+
+.resImage {
+  max-width: 100%; }
+
+.centerView {
+  border-top: 10px solid black;
+  border-left: 100px solid black;
+  border-right: 100px solid black;
+  border-bottom: 10px solid black;
+  margin-top: 160px;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+iframe {
+  max-width: 100%; }
+
+.youtube {
+  padding-left: 20%;
+  padding-right: 20%; }
+
+#music {
+  margin-top: 250px;
+  width: 100%;
+  height: 100vh; }
+
+#tour {
+  width: 100%;
+  height: 100vh; }
+
+.albumart {
+  padding-left: 30%;
+  padding-right: 10%; }
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  color: white; }
+
+footer {
+  text-align: center;
+  color: grey;
+  font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
